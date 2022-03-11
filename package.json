@@ -1,0 +1,32 @@
+{
+  "name": "vitaudio",
+  "version": "1.0.0",
+  "description": "convert video to audio",
+  "main": "src/",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "PORT=5000 nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wallycoding/vitaudio.git"
+  },
+  "keywords": [
+    "js",
+    "nodejs",
+    "ffmpeg"
+  ],
+  "author": "wallycoding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wallycoding/vitaudio/issues"
+  },
+  "homepage": "https://github.com/wallycoding/vitaudio#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "busboy": "^1.4.0"
+  }
+}
